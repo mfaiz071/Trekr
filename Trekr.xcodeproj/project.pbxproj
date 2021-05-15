@@ -11,6 +11,8 @@
 		A20E07EA2650576200DC2AE2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20E07E92650576200DC2AE2 /* ContentView.swift */; };
 		A20E07EC2650576500DC2AE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20E07EB2650576500DC2AE2 /* Assets.xcassets */; };
 		A20E07EF2650576500DC2AE2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20E07EE2650576500DC2AE2 /* Preview Assets.xcassets */; };
+		A20E07F7265057FD00DC2AE2 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = A20E07F6265057FD00DC2AE2 /* locations.json */; };
+		A20E07F92650581200DC2AE2 /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = A20E07F82650581200DC2AE2 /* tips.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		A20E07EB2650576500DC2AE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A20E07EE2650576500DC2AE2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A20E07F02650576500DC2AE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A20E07F6265057FD00DC2AE2 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		A20E07F82650581200DC2AE2 /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 				A20E07E92650576200DC2AE2 /* ContentView.swift */,
 				A20E07EB2650576500DC2AE2 /* Assets.xcassets */,
 				A20E07F02650576500DC2AE2 /* Info.plist */,
+				A20E07F6265057FD00DC2AE2 /* locations.json */,
+				A20E07F82650581200DC2AE2 /* tips.json */,
 				A20E07ED2650576500DC2AE2 /* Preview Content */,
 			);
 			path = Trekr;
@@ -127,6 +133,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A20E07EF2650576500DC2AE2 /* Preview Assets.xcassets in Resources */,
+				A20E07F92650581200DC2AE2 /* tips.json in Resources */,
+				A20E07F7265057FD00DC2AE2 /* locations.json in Resources */,
 				A20E07EC2650576500DC2AE2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
